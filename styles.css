@@ -1,0 +1,213 @@
+/* styles.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("css.background/image.jpg");
+  background-size: 100% 20%;
+  background-repeat: no-repeat;
+  background-position: above;
+}
+
+/* Rest of the CSS code... */
+
+
+/* Header styles */
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #250348;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #691295f2;
+}
+
+nav ul li a.active {
+  background-color: #28037f31;
+}
+
+/* About section styles */
+#about {
+  background-image: url("images/profile\ background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#about:hover {
+  transform: scale(1.02);
+}
+
+#education {
+  background-image: url("images/education.jpg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 40px;
+  text-align: left;
+  border-radius: 60px;
+  box-shadow: 0 2px 4px rgba(8, 12, 226, 0.873);
+  transition: transform 0.3s ease;
+}
+
+#education:hover {
+  transform: scale(1.02);
+}
+
+#skills {
+  background-image: url("images/skills.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  text-align: left;
+  border-radius: 60px;
+  box-shadow: 0 2px 4px rgba(175, 3, 149, 0.748);
+  transition: transform 0.3s ease;
+  color: #050505 /* Set the desired text color */
+}
+
+#skills:hover {
+  transform: scale(1.02);
+}
+
+#projects {
+  background-image: url("images/project.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  text-align: left;
+  border-radius: 60px;
+  box-shadow: 0 2px 4px rgba(175, 3, 149, 0.748);
+  transition: transform 0.3s ease;
+  color: #050505; /* Set the desired text color */
+}
+
+#projects:hover {
+  transform: scale(1.02);
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+#contact {
+  background-image: url("images/contact1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  text-align: center;
+  border-radius: 60px;
+  box-shadow: 0 2px 4px rgba(139, 93, 132, 0.748);
+  transition: transform 0.3s ease;
+  color: #000001ae; /* Set the desired text color */
+}
+
+#contact:hover {
+  transform: scale(1.02);
+}
+
+
+
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Profile picture styles */
+.profile-picture-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} 
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.university-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.university-image {
+  width: 600px; /* Adjust the width of the image as needed */
+  height: 300px;
+}
+.School-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.school-image {
+  width: 600px; /* Adjust the width of the image as needed */
+  height: 300px;
+}
+
+
